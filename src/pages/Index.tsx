@@ -8,9 +8,7 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 import { StatsSection } from "@/components/stats-section"
-import { MmkCaseSection } from "@/components/mmk-case-section"
-import { SeverstalCaseSection } from "@/components/severstal-case-section"
-import { NlmkCaseSection } from "@/components/nlmk-case-section"
+import { CasesSection } from "@/components/cases-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 
@@ -30,9 +28,7 @@ export default function Index() {
           <SafetySection />
         </section>
         <StatsSection />
-        <MmkCaseSection />
-        <SeverstalCaseSection />
-        <NlmkCaseSection />
+        <CasesSection />
         <TestimonialsSection />
         <section id="faq">
           <FAQSection />
